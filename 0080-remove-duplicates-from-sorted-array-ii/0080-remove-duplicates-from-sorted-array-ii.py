@@ -9,18 +9,5 @@ class Solution:
             if nums[i - 1] != nums[i] or nums[k - 2] != nums[i]:
                 nums[k] = nums[i]
                 k += 1
-        # k = 1
-        # counter = 0
-
-        # for i in range(1, length):
-        #     if nums[i] == nums[i - 1]:
-        #         counter += 1
-        #         if counter == 1:
-        #             nums[k] = nums[i]
-        #             k += 1
-        #     else:
-        #         nums[k] = nums[i]
-        #         k += 1
-        #         counter = 0
             
         return k
