@@ -13,7 +13,7 @@ class Solution:
         for i in range(1, length):
             if nums[i - 1] != nums[i]:
 
-                if nums[i] == nums[i + n - 1] and (i + n - 1 < length):
+                if nums[i] == nums[i + n - 1]:
                 
                     return nums[i]
 
