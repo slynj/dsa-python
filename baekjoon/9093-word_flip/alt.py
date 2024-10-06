@@ -2,7 +2,7 @@
 
 T = int(input())
 
-for _ in range(T):
+for i in range(T):
     sentence = input()
     result = []
 

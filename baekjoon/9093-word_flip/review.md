@@ -1,6 +1,6 @@
 # 💡  problem analysis & summary
 
-- For each test case, given a sentence consisting of words, reverse each word in the sentence while maintaining the word order in the sentence.
+- Given a sentence consisting of words, reverse each word in the sentence while maintaining the word order in the sentence.
 
 # 💡  algorithm structure
 
@@ -9,6 +9,23 @@
 - After reversing each word, join the words back into a sentence using `' '.join()` to maintain the word order.
 
 # 💡  code
+
+```python
+T = int(input())
+
+for i in range(T):
+    sentence = input()
+    words = sentence.split()
+    reversed_words = []
+    
+    for word in words:
+        reversed_words.append(word[::-1])
+    
+    reversed_sentence = ' '.join(reversed_words)
+    
+    print(reversed_sentence)
+
+```
 
 ```python
 T = int(input())
@@ -44,21 +61,19 @@ for _ in range(T):
     sentence = input()
     result = []
     
-    # Process each word in the sentence
     for word in sentence.split():
-        stack = list(word)  # Push all characters of the word onto a stack
+        stack = list(word)
         reversed_word = ''
         
-        # Pop characters from stack to reverse the word
         while stack:
             reversed_word += stack.pop()
         
         result.append(reversed_word)
     
-    # Join the reversed words with spaces and print the result
     print(' '.join(result))
 ```
 
 # 💡  take aways & key points
 
 - practice string manip
+- time complexity of strin manip
