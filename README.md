@@ -15,6 +15,6 @@ Here are the platforms I use to practice coding challenges:
 
 ## 📚 Practice Notes
 
-I post detailed notes, explanations, and solutions to the problems I solve on my website. Check out my [Coding Challenge Notes](https://www.lynjeong.com) for in-depth explanations and code breakdowns. These are also in repo, within the directories along the code. 🗂️
+I post detailed notes, explanations, and solutions to the problems I solve on my website. Check out my [Coding Challenge Notes](https://lynjeong.com) for in-depth explanations and code breakdowns. These are also in repo, within the directories along the code. 🗂️
 
 Stay tuned for daily updates and more problem-solving strategies!
