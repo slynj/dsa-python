@@ -1,3 +1,5 @@
+# https://www.acmicpc.net/problem/1697
+
 from collections import deque
 
 def find_min_time(N, K):
