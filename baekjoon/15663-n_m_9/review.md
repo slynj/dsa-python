@@ -53,8 +53,9 @@ $O(N^M)$
 
 # 💡  fix & alternative approach
 
-- You can avoid unnecesasry recursive calls by checking the condition `seequence[i] == seqnece[i-1]`
-- This has the time complexity of $O(N \enspace log N)$, where $N$is the number of elements
+- You can also check the duplicates using `seequence[i] == seqnece[i-1]`
+- Instead of saving it to the variable, you compare using the index
+- Time complexity is still the same!
 
 ```python
 def backtrack(sequence, path, N, M, used):
@@ -83,3 +84,5 @@ backtrack(sequence, [], N, M, used)
 
 - When you do `lst.sort()`, it returns `None` so you shouldn’t put it in the parameter (`backtrack(sequence.sort(), [], N, M, ...)` will return `None` for sequence!)
 - When tracking is needed, use another variable and data struct.
+- Set `visited[i]` back to `False` after you finish backtracking
+- `list + [1]` list addition!
