@@ -9,6 +9,8 @@ Here are the platforms I use to practice coding challenges:
 
 - **[LeetCode](https://leetcode.com)**: One of the most popular platforms for coding challenges. I focus on solving problems related to data structures, algorithms, and interview preparation.
   
+- **[NeetCode](https://neetcode.io/)**: Platform for problem-solving practice, with a focus on essential patterns and strategies.
+
 - **[Baekjoon Online Judge](https://www.acmicpc.net/)**: A platform that provides a wide range of algorithm problems. I practice here to solve more competitive programming problems. 
 
 - **[Programmers](https://programmers.co.kr/)**: A platform offering coding challenges and technical interview problems.
