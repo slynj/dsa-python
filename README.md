@@ -2,7 +2,7 @@
 
 ## 📝
 Leetcode grind except I keep forgetting how I did this before... <br>
-Notes are in review.md or in my [website](https://lynjeong.com) for most of the questions.
+Notes are in `review.md` or in my [website](https://lynjeong.com) for most of the questions.
 
 ## 🌐
 - [LeetCode](https://leetcode.com)
