@@ -7,13 +7,15 @@ class Solution:
             "]" : "["
         }
 
-        for i in range(len(s)):
-            if s[i] in bracketPair.values():
-                bracket.append(s[i])
+        for c in s:
+            if c in bracketPair:
+                if bracket and bracket[-1] == bracketPair[c]:
+                    bracket.pop()
+                else:
+                    return False
             else:
-                if bracket and bracket[-1] == bracketPair[s[i]]:
-                    bracket = bracket[:len(bracket) - 1]
-                    length -= 2
+                bracket.append(c)
+                
 
-        return length == 0
+        return True if not bracket else False
 
